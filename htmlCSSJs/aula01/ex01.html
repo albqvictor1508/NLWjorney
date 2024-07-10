@@ -1,18 +1,25 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style.css"/>
     <title>Aula 1 NLW</title>
-    <style>
-        body {
-            min-height: 100vh;
-            background-color: #181920;
-            color: white;
-        }
-    </style>
 </head>
 <body>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/dayjs@1/locale/pt-br.js"></script>
+    <script>dayjs.locale('pt-br')</script>
+
+    <form>
+        <div class="form-body">
+            <input type="text" name="atividade" placeholder="Atividade."/>
+            <div>
+                <select name="data"></select>
+                <select name="hora"></select>
+            </div>
+        </div>
+    </form>
     <main>
         <h1>Atividades</h1>
         <section>
