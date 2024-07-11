@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
     <title>Aula 1 NLW</title>
 </head>
 <body>
@@ -11,9 +11,9 @@
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1/locale/pt-br.js"></script>
     <script>dayjs.locale('pt-br')</script>
 
-    <form onsubmit="salvarAtividade(e)">
+    <form onsubmit="salvarAtividade(event)">
         <div class="form-body">
-            <input type="text" name="atividade" placeholder="Atividade."/>
+            <input type="text" name="atividade" placeholder="Atividade." required/>
             <div>
                 <select name="data"></select>
             </div>
@@ -23,7 +23,7 @@
             </div>
 
             <div>
-                <button>Salvar Tarefa!</button>
+                <button>Salvar Atividade!</button>
             </div>
         </div>
     </form>
@@ -32,6 +32,6 @@
         <section>
         </section>
     </main>
-    <script src="ex01.js"></script>
+    <script src="assets/js/ex01.js"></script>
 </body>
 </html>
