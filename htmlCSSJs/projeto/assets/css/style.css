@@ -56,6 +56,10 @@ main {
         color: #132F00;
         font-weight: 500;
         letter-spacing: -0.02em;
+        cursor: pointer;
+    }
+    .button:active {
+        background-color: #5f8626
     }
 
     h1 {
