@@ -11,12 +11,19 @@
     <script src="https://cdn.jsdelivr.net/npm/dayjs@1/locale/pt-br.js"></script>
     <script>dayjs.locale('pt-br')</script>
 
-    <form>
+    <form onsubmit="salvarAtividade(e)">
         <div class="form-body">
             <input type="text" name="atividade" placeholder="Atividade."/>
             <div>
                 <select name="data"></select>
+            </div>
+
+            <div>
                 <select name="hora"></select>
+            </div>
+
+            <div>
+                <button>Salvar Tarefa!</button>
             </div>
         </div>
     </form>

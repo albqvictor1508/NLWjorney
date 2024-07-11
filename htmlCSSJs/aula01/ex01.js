@@ -72,7 +72,20 @@ function criaItemDaAtividade(atividade) {
     ExibirAtividade(itemAtividade)
 }
 
- function ExibirAtividade(atividade) {
+function ExibirAtividade(atividade) {
     const section = document.querySelector('section');
     section.innerHTML += atividade;
+}
+
+const salvarAtividade = event => {
+    event.preventDefault();
+}
+
+const selectDias = () => {
+    
+}
+selectDias();
+
+const selectHoras = () => {
+
 }
